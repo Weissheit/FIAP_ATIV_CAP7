@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Login - SUPERAPP">
+    <meta name="author" content="Luiz H. S. O.">
+    <meta name="keywords" content="CADASTRO, FORMULÁRIO DE CADASTRO, SUPERAPP">
+    <title>CADASTRO SUPERAPP</title>
+    <link rel="stylesheet" href="/bootstrap-5.2.3-dist/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS CUSTOM/background.css">
+    <link rel="stylesheet" href="CSS CUSTOM/custom.css">
+</head>
+
+<body>
+    
+    <div class="box">
+        <form action="cadastrobemsucedido.html" method="get">
+                <legend>
+                <p>Formulário de Cadastro</p>
+                </legend>
+
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputClient" required>
+                        <label for="nome" class="labelClient">Nome Completo</label>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputClient" required>
+                        <label for="email" class="labelClient">Email</label>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputClient" required>
+                        <label for="telefone" class="labelClient">Telefone</label>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <p>Gênero:</p>
+                    <input type="radio" name="genero" id="masculino" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="feminino" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero" id="outro" value="outro" required>
+                    <label for="outro">Outro</label>
+                    
+                    <br><br><br>
+                    
+                    <div class="inputBox">
+                        <label for="dt_nasc">Data de Nascimento:</label><br><br>
+                        <input type="date" name="dt_nasc" id="dt_nasc" required>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <div class="inputBox">
+                        <input type="text" name="cidade" id="cidade" class="inputClient" required>
+                        <label for="cidade" class="labelClient">Cidade</label>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <div class="inputBox">
+                        <input type="text" name="estado" id="estado" class="inputClient" required>
+                        <label for="estado" class="labelClient">Estado</label>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <div class="inputBox">
+                        <input type="text" name="endereco" id="endereco" class="inputClient" required>
+                        <label for="endereco" class="labelClient">Endereço</label>
+                    </div>
+
+                    <br><br>
+
+                    <input href="cadastrobemsucedido.html" type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

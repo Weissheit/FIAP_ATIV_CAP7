@@ -1,0 +1,187 @@
+.box{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.774);
+    background-size: cover;
+    padding: 15px;
+    border-radius: 15px;
+    min-width: 40%;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    margin-bottom: 45px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+.inputBox
+{
+    position: relative;
+}
+
+.labelClient
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputClient:focus ~ .labelClient,
+.inputClient:valid ~ .labelClient
+{
+    top: -20px;
+    font-size: 0.8em;
+
+}
+
+.inputClient
+{
+    background:none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelLogin
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 3em;
+}
+
+.inputLogin
+{
+    background:none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 2.8em;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.inputLogin:focus ~ .labelLogin,
+.inputLogin:valid ~ .labelLogin
+{
+    top: -30px;
+    font-size: 1.5em;
+
+}
+
+.extrasize
+
+{
+    width: 50%;
+    height: 50%;
+    top: 40%;
+}
+
+.extrainput
+{
+    min-height: 100px;
+    max-height: 400px;
+    border-radius: 15px;
+}
+
+legend p
+{
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#dt_nasc
+{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#feminino, #masculino, #outro
+{
+    cursor: pointer;
+}
+
+
+#submit
+{
+    background-color: #4b89c7;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+#submit:hover
+{
+    background-image: linear-gradient(to right, rgba(20, 147, 220, 0.171), rgba(17, 54, 71, 0.404));
+}
+
+#check
+{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    padding: 50px;
+}
+
+.personbutton
+{
+    background-color: #4b89c7;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.personbutton2
+{
+    background-color: #4b89c7;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.personbutton3
+{
+    background-color: #4b89c7;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+}
